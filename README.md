@@ -31,7 +31,16 @@ HADOOP_BIN_DIR=${HADOOP_HOME}/bin
 
 5. Run gobblin-standalone.sh file with parameters like this.
 
+First start the service 
 ```
-/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh start --conf /home/engin/denemeJobFile.pull --workdir /home/engin/workdir
+/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh stop --confdir /home/engin/gobblin/deneme --workdir /home/engin/gobblin/deneme/wd
+```
+After job execution stop it
+```
+/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh stop --confdir /home/engin/gobblin/deneme --workdir /home/engin/gobblin/deneme/wd
 ```
 
+
+Notes:
+
+I recommend to check nohup.out file in working directory to get failure details after execution step. And another file conf/gobblin-standalone.properties contains file:// file path definitions.
