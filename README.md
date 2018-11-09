@@ -41,6 +41,7 @@ After job execution stop it
 ```
 
 
-Notes:
-
-I recommend to check nohup.out file in working directory to get failure details after execution step. And another file conf/gobblin-standalone.properties contains file:// file path definitions.
+>Notes:
+>
+>I recommend to check nohup.out file in working directory to get failure details after execution step. And another file conf/gobblin->standalone.properties contains file:// file path definitions.
+>
