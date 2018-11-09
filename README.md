@@ -32,6 +32,6 @@ HADOOP_BIN_DIR=${HADOOP_HOME}/bin
 5. Run gobblin-standalone.sh file with parameters like this.
 
 ```
-/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh start --conf /home/engin/deneme.pull --workdir /home/engin/workdir
+/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh start --conf /home/engin/denemeJobFile.pull --workdir /home/engin/workdir
 ```
 
