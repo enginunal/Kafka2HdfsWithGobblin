@@ -33,11 +33,11 @@ HADOOP_BIN_DIR=${HADOOP_HOME}/bin
 
 First start the service 
 ```
-/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh start --confdir /home/engin/gobblin/deneme --workdir /home/engin/gobblin/deneme/wd
+/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh start --conf /home/engin/gobblin/deneme --workdir /home/engin/gobblin/deneme/wd
 ```
 After job execution stop it
 ```
-/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh stop --confdir /home/engin/gobblin/deneme --workdir /home/engin/gobblin/deneme/wd
+/home/engin/gobblin/gobblin-dist/bin/gobblin-standalone.sh stop --conf /home/engin/gobblin/deneme --workdir /home/engin/gobblin/deneme/wd
 ```
 
 
